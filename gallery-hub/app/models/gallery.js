@@ -4,6 +4,8 @@
 
 const mongoose = require('mongoose')
 
+const artworkSchema = require('./artwork')
+
 const gallerySchema = new mongoose.Schema(
     {
         name: {
@@ -21,7 +23,6 @@ const gallerySchema = new mongoose.Schema(
         owner: {
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User',
-            required: true,
         },
     },
     {
