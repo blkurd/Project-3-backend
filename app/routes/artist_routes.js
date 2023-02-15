@@ -65,7 +65,6 @@ router.get('/artists', (req, res, next) => {
 <<<<<<< HEAD
 <<<<<<< HEAD:app/routes/artist_routes.js
     Artist.find()
-        .populate('owner')
         .then(artists => {
             return artists.map(artist => artist.toObject())
         })

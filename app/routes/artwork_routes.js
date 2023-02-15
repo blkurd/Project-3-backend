@@ -10,10 +10,9 @@ const Gallery = require('../models/gallery')
 const customErrors = require('../../lib/custom_errors')
 const handle404 = customErrors.handle404
 const requireOwnership = customErrors.requireOwnership
-<<<<<<< HEAD
+
 const notAllowed = customErrors.NotAllowedError
-=======
->>>>>>> 071c8da (Reordered all files)
+
 const removeBlanks = require('../../lib/remove_blank_fields')
 const requireToken = passport.authenticate('bearer', { session: false })
 
@@ -22,9 +21,6 @@ const router = express.Router()
 
 // ROUTES
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 // INDEX
 
 router.get('/artworks/:galleryId', requireToken, (req, res, next) => {
@@ -77,7 +73,6 @@ router.get(
     }
 )
 
->>>>>>> c3bdb61 (added galleries-mine route)
 // CREATE/ADD Artwork to gallery
 router.post(
     '/artworks/:galleryId',
@@ -260,4 +255,4 @@ router.delete('/artworks/:galleryId/:artworkId', requireToken, (req, res, next) 
 
 // export our router
 module.exports = router
->>>>>>> 071c8da (Reordered all files)
+

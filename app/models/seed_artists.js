@@ -8,21 +8,18 @@ const starterArtists = [
         description: 'An artist',
         location: 'City,State',
         website: 'www.google.com',
-        img: '/power.jpeg', 
     },
     {
         name: 'Eric Elsner',
         description: 'An artist',
         location: 'City,State',
         website: 'www.google.com',
-        img: '/power.jpeg', 
     },
     {
         name: 'Belal Elkurd',
         description: 'An artist',
         location: 'City,State',
         website: 'www.google.com',
-        img: '/power.jpeg', 
     },
 ]
 
