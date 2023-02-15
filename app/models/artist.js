@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< HEAD:app/models/artist.js
 //The Artist Model/Schema
 
@@ -21,6 +22,8 @@ const artistSchema = new mongoose.Schema(
     { timestamps: true }
 )
 =======
+=======
+>>>>>>> 071c8da (Reordered all files)
 //The Artist Model/Schema 
 
 
@@ -40,6 +43,9 @@ const artistSchema = new mongoose.Schema({
         required: true,
     }, 
 }, { timestamps: true})
+<<<<<<< HEAD
 >>>>>>> c190f1e (Added new hurdle to README,Added artist schema and routes):gallery-hub/app/models/artist.js
+=======
+>>>>>>> 071c8da (Reordered all files)
 
 module.exports = mongoose.model('Artist', artistSchema)
